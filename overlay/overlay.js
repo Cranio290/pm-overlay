@@ -1,5 +1,5 @@
 //Box
-var html =  '<div style="background-color:white; border:4em solid black; position:absolute; top: 10px; right: 10px;">Overlay:<br>X:<input type="text" id="x"></input></div>'
+var html =  '<div style="background-color:white; border:3px solid black; border-radius: 5px; padding:5px; position:absolute; top: 10px; right: 10px;">Overlay:<br>X:<input type="text" id="x"></input></div>'
 const body = document.getElementsByTagName("body")[0];
 const div = document.createElement("div");
 div.innerHTML = html;
